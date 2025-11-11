@@ -10,7 +10,7 @@ body {
     max-width: 1200px;
     margin: 30px auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    background-color: #f5e3c6; /* 加上 # */
+    background-color: #f5e3c6; 
 }
 
 
@@ -86,15 +86,17 @@ main .mye {
     overflow: auto;
 }
 
-.mye img {
-    float: right; 
-    width: 300px; 
-    height: 400px;
-    object-fit: cover;
-    border-radius: 8px; 
-    margin-left: 20px;
-    margin-bottom: 10px;
+.myeim {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 25px; 
 }
+
+.myeim img {
+    width: 48%; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
 
 footer {
     background-color:#ffd695;
@@ -144,12 +146,13 @@ footer i {
     footer span {
         margin-bottom: 10px; 
     }
-
-    .mye img {
-        float: none;          
-        display: block;       
-        margin: 0 auto 15px; 
-        width: 120px;  
-        height: 120px;
+    .myeim{
+        flex-direction: column;
+        align-items: center;
     }
-} /* 關閉 @media */
+    .image-container img {
+        width: 90%; 
+        height: auto; 
+        margin-bottom: 15px; 
+    }
+}
