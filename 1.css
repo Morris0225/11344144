@@ -93,8 +93,8 @@ main .mye {
 }
 
 .myeim img {
-    width: 48%; 
-    height: auto;
+    width: 300px; 
+    height: 400px;
     object-fit: cover;
     border-radius: 8px;
 }
