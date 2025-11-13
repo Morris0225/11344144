@@ -77,14 +77,11 @@ main h3 {
     color: #000000;
 }
 
-.mye{
-    background-color: #f5e3c6;
-}
-
 .mye img{
     width: auto;
     height: 400px;
 }
+
 footer {
     background-color:#f0b85f;
     padding: 20px 40px;
